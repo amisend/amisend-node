@@ -2,7 +2,7 @@ const axios = require("axios");
 
 class Wrapper {
   constructor({ baseURL, apiKey, timeout }) {
-    const url = `https://amisend.com/api`;
+    const url = `https://api.amisend.com/`;
     this.apiKey = apiKey;
 
     this.axiosInstance = axios.create({
