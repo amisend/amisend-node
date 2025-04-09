@@ -1,0 +1,22 @@
+{
+  "name": "amisend",
+  "version": "1.0.0",
+  "description": "Implementation of amisend email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amisend",
+    "node",
+    "email",
+    "send",
+    "email-sending",
+    "api"
+  ],
+  "author": "Sebastian iturra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+}
