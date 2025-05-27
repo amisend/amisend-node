@@ -54,8 +54,23 @@ amisend.emails
   .catch((error) => console.log(error)); // Handle the error.
 ```
 
+### Contacts
+
+#### create contact
+
+````javascript
+amisend.contacts.create({
+  name: "Sebastián",
+  email: "example@hotmail.com",
+  audienceId: ''
+})
+.then((response) => {})
+.catch((error) => console.log(error)); // Handle the error.
+```
+
+
 ## Publish
 
 ```cli
 npm publish
-```
+````

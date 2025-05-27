@@ -1,5 +1,6 @@
 const Wrapper = require("./Wrapper");
 const Emails = require("./Emails");
+const Contacts = require("./Contacts");
 
 class Amisend {
   constructor({ apiKey, baseURL, timeout }) {
@@ -9,6 +10,7 @@ class Amisend {
       timeout,
     });
     this.emails = new Emails(axiosInstance);
+    this.contacts = new Contacts(axiosInstance);
   }
 }
 
