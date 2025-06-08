@@ -9,7 +9,7 @@ class Wrapper {
       baseURL: baseURL || url,
       timeout: timeout || 5000,
       headers: {
-        "x-api-key": apiKey,
+        Authorization: `Bearer ${apiKey}`,
       },
     });
 
